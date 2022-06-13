@@ -1,0 +1,7 @@
+06/14/2022 02:34:18 AM: INFO: ====== WebDriver manager ======
+06/14/2022 02:34:20 AM: INFO: Current google-chrome version is 102.0.5005
+06/14/2022 02:34:20 AM: INFO: Get LATEST chromedriver version for 102.0.5005 google-chrome
+06/14/2022 02:34:20 AM: INFO: There is no [win32] chromedriver for browser 102.0.5005 in cache
+06/14/2022 02:34:20 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+06/14/2022 02:34:24 AM: INFO: Driver has been saved in cache [C:\Users\hp\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+06/14/2022 02:34:27 AM: INFO: Open Browser
