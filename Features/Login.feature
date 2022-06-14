@@ -1,6 +1,6 @@
 Feature: Test Login
   Scenario: Verify Login Page
     Given Launch Browser
-    Then Verify Title
+    Then Verify Login
     And Close Browser
 

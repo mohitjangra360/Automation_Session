@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read(".\\Innsight_Prod\\Configuration\\Config.ini")
+config.read(".\\Configuration\\Config.ini")
 
 
 class ReadConfig:
