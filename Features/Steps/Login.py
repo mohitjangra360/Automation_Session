@@ -36,9 +36,17 @@ def verify_login(context):
     expected_title = "InnSight"
     if actual_title == expected_title:
         assert True
+        allure.attach(context.driver.get_screenshot_as_png(), name="Login Page 2",
+                      attachment_type=AttachmentType.PNG)
         mylog.info("Title Is Pass")
         lpage = LoginPage(context.driver)
         lpage.setUsername(username)
         lpage.setPassword(password)
         lpage.clickOnLogin()
-        mylog.info("Done")
+        mylog.info("Login Success")
+        expected_title = ":: INNSIGHT ::"
+        actual_title = context.driver.title
+        if expected_title == actual_title:
+            mylog.info("Login Success And User On Home Page")
+            allure.attach(context.driver.get_screenshot_as_png(),name="Login Page",
+            attachment_type=AttachmentType.PNG)
