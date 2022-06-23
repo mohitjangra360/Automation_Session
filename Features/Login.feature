@@ -1,6 +1,13 @@
 Feature: Test Login
-  Scenario: Verify Login Page
+  Background:
     Given Launch Browser
-    Then Verify Login
+  @smoke
+  Scenario: Verify UI of Login page
+    Given User On Login Page
     And Close Browser
 
+
+  @sanity
+  Scenario: Verify UI of Login page2
+    Given Verify Login
+    And Close Browser

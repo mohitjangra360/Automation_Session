@@ -1,10 +1,14 @@
+from telnetlib import EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class LoginPage:
     username_by_name = "userName"
     password_by_name = "password"
     login_btn_by_class = "loginbtn"
+    logo_by_classname = "logo"
 
 
     def __init__(self, driver):
@@ -20,3 +24,10 @@ class LoginPage:
 
     def clickOnLogin(self):
         self.driver.find_element(By.CLASS_NAME, self.login_btn_by_class).click()
+
+    def verify_logo(self):
+        logo = self.driver.find_element(By.CLASS_NAME, self.logo_by_classname).is_displayed()
+        if logo == True:
+            assert True
+        else:
+            assert False
