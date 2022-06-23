@@ -45,3 +45,28 @@
 06/14/2022 11:35:28 AM: INFO: Title Is Pass
 06/14/2022 11:35:34 AM: INFO: Done
 06/14/2022 11:35:34 AM: INFO: Close Browser
+06/23/2022 08:50:35 AM: INFO: ====== WebDriver manager ======
+06/23/2022 08:50:36 AM: INFO: Current google-chrome version is 102.0.5005
+06/23/2022 08:50:36 AM: INFO: Get LATEST chromedriver version for 102.0.5005 google-chrome
+06/23/2022 08:50:37 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+06/23/2022 08:50:43 AM: INFO: Driver has been saved in cache [C:\Users\hp\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+06/23/2022 08:50:46 AM: INFO: Open Browser
+06/23/2022 08:51:19 AM: INFO: Close Browser
+06/23/2022 10:19:41 AM: INFO: ====== WebDriver manager ======
+06/23/2022 10:19:42 AM: INFO: Current google-chrome version is 102.0.5005
+06/23/2022 10:19:42 AM: INFO: Get LATEST chromedriver version for 102.0.5005 google-chrome
+06/23/2022 10:19:43 AM: INFO: Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+06/23/2022 10:19:45 AM: INFO: Open Browser
+06/23/2022 10:19:49 AM: INFO: Title Is Pass
+06/23/2022 10:20:28 AM: INFO: Login Success
+06/23/2022 10:20:28 AM: INFO: Login Success And User On Home Page
+06/23/2022 10:20:29 AM: INFO: Close Browser
+06/23/2022 10:21:10 AM: INFO: ====== WebDriver manager ======
+06/23/2022 10:21:11 AM: INFO: Current google-chrome version is 102.0.5005
+06/23/2022 10:21:11 AM: INFO: Get LATEST chromedriver version for 102.0.5005 google-chrome
+06/23/2022 10:21:11 AM: INFO: Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+06/23/2022 10:21:13 AM: INFO: Open Browser
+06/23/2022 10:21:16 AM: INFO: Title Is Pass
+06/23/2022 10:21:49 AM: INFO: Login Success
+06/23/2022 10:21:49 AM: INFO: Login Success And User On Home Page
+06/23/2022 10:21:49 AM: INFO: Close Browser
