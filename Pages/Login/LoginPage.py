@@ -31,3 +31,9 @@ class LoginPage:
             assert True
         else:
             assert False
+    def verify_logo_slide_img(self):
+        logo = self.driver.find_element(By.CLASS_NAME, self.logo_by_classname).is_displayed()
+        if logo == True:
+            assert True
+        else:
+            assert False

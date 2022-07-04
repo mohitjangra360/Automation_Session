@@ -1,9 +1,11 @@
 Feature: Test Login
   Background:
-    Given Launch Browser
+    Given Open Browser
   @smoke
   Scenario: Verify UI of Login page
     Given User On Login Page
+    Then I should see sliding image
+
     And Close Browser
 
 
