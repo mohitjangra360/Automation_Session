@@ -8,10 +8,10 @@ Feature: Test Login
     Then I should see sliding image
     And Close Browser
 
-  @sanity
-  Scenario: Verify UI of Login page 2
-    Given Verify Login
-    And Close Browser
+#  @sanity
+#  Scenario: Verify UI of Login page 2
+#    Given Verify Login
+#    And Close Browser
 
 
 
