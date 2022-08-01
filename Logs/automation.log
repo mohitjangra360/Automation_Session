@@ -411,3 +411,12 @@
 07/29/2022 05:07:22 AM: INFO: Driver has been saved in cache [C:\Users\Mohit\.wdm\drivers\chromedriver\win32\103.0.5060]
 07/29/2022 05:07:25 AM: INFO: Open Browser
 07/29/2022 05:07:28 AM: INFO: Close Browser
+08/01/2022 08:48:10 AM: INFO: ====== WebDriver manager ======
+08/01/2022 08:48:12 AM: INFO: Get LATEST chromedriver version for google-chrome 103.0.5060
+08/01/2022 08:48:14 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_win32.zip
+08/01/2022 08:48:18 AM: INFO: Driver has been saved in cache [C:\Users\Mohit\.wdm\drivers\chromedriver\win32\103.0.5060]
+08/01/2022 08:48:20 AM: INFO: Open Browser
+08/01/2022 04:30:42 PM: INFO: ====== WebDriver manager ======
+08/01/2022 04:30:42 PM: INFO: Get LATEST chromedriver version for google-chrome 103.0.5060
+08/01/2022 04:30:44 PM: INFO: Driver [C:\Users\Mohit\.wdm\drivers\chromedriver\win32\103.0.5060\chromedriver.exe] found in cache
+08/01/2022 04:30:46 PM: INFO: Open Browser

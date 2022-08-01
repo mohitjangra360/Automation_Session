@@ -11,7 +11,6 @@ username = ReadConfig.getUserName()
 password = ReadConfig.getPassword()
 
 
-
 @step("I should see sliding image")
 def check_login_slide_image(context):
     global logopage
@@ -44,5 +43,5 @@ def verify_login(context):
         actual_title = context.driver.title
         if expected_title == actual_title:
             mylog.info("Login Success And User On Home Page")
-            allure.attach(context.driver.get_screenshot_as_png(),name="Login Page",
-            attachment_type=AttachmentType.PNG)
+            allure.attach(context.driver.get_screenshot_as_png(), name="Login Page",
+                          attachment_type=AttachmentType.PNG)
