@@ -6,7 +6,7 @@ import requests
 @step("create request")
 def request(context):
     apiUrl = "https://gorest.co.in/public/v2/users"
-    path = "D:\Insight\InnsightBehaveHBF\Features\API\steps\\response\\"
+    path = "D:\Automation\InnsightProd_Framework_Hybrid_Behave\Features\API\steps\\response\\"
     name = "test.json"
     filename = path + name
     print(filename)
@@ -27,7 +27,7 @@ def request(context):
     else:
         print('Response Failed')
     # # Display Response Content
-    data = open("D:\Insight\InnsightBehaveHBF\Features\API\steps\\response\\test.json", "r").read()
+    data = open("D:\Automation\InnsightProd_Framework_Hybrid_Behave\Features\API\steps\\response\\test.json", "r").read()
     print(data)
     print("a")
     #
