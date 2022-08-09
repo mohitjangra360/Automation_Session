@@ -22,6 +22,7 @@ def close_browser(context):
     context.driver.close()
 
 
+
 @step("User On Login Page")
 def user_on_login_page(context):
     global logopage
