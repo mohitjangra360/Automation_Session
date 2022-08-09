@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class Salesforce_Login_Page():
+class Salesforce_Login_Page:
 
     def __init__(self, driver):
         self.driver = driver
