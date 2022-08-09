@@ -24,7 +24,6 @@ class Salesforce_Login_Page:
         login_btn = self.driver.find_element(By.XPATH, "//input[@id='Login']")
         logo_status = login_btn.is_displayed()
         if logo_status == True:
-                login_btn.click()
+            login_btn.click()
         else:
             assert False
-
