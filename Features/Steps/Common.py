@@ -1,3 +1,5 @@
+import time
+
 from behave import *
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,6 +14,7 @@ baseUrl = ReadConfig.getApplicationURL()
 def launch_browser(context):
     context.driver = webdriver.Chrome(ChromeDriverManager().install())
     # mylog.info("Open Browser")
+    context.driver.maximize_window()
     context.driver.get(baseUrl)
 
 
@@ -20,3 +23,8 @@ def close_browser(context):
     # mylog.info('Close Browser')
     context.driver.close()
 
+
+@step("I wait {} seconds")
+def wait_on(context, wait_on):
+    wait_time = int(wait_on)
+    time.sleep(wait_time)
