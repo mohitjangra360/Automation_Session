@@ -11,7 +11,7 @@ Feature: Login
     Then User Enter Password
     And I wait 2 seconds
     Then click on login button
-    Then I wait 10 seconds
+    Then I wait 3 seconds
 
 
 
