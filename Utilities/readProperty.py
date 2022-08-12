@@ -19,3 +19,18 @@ class ReadConfig:
     def getPassword():
         password = config.get('common info', 'password')
         return password
+
+    @staticmethod
+    def getSFApplicationURL():
+        url = config.get('common info', 'sfUrl')
+        return url
+
+    @staticmethod
+    def getSFUserName():
+        username = config.get('common info', 'sf_username')
+        return username
+
+    @staticmethod
+    def getSFPassword():
+        password = config.get('common info', 'sf_password')
+        return password
