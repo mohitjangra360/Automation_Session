@@ -31,5 +31,12 @@ Background:
     And User Enter Password "Salesforce@2804."
     And Click On Login Button
     And I wait 10 seconds
-    Then Switch Salesforce
+    Then Switch Salesforce  
     And I wait 10 seconds
+
+  @AS01_04
+  Scenario: 1. Login with Valid Credentials
+    When User Enter Username "msjangra2021@gmail.com"
+    And User Enter Password "Salesforce@2804."
+    And Click On Login Button
+    And I wait 5 seconds
