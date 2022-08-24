@@ -35,7 +35,6 @@ class AssignmentOne:
             actual_errormsg = "Please check your username and password. If you still can't log in, contact your Salesforce administrator."
             time.sleep(2)
             if errormsg == actual_errormsg:
-                # print("error message visible")
                 assert True
 
     def switch_sf(self):
